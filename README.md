@@ -15,3 +15,13 @@ We can optionally change the following parameters in the server.config file:
 * Serving directory (default ./static)
 * Default index file (default index.html)
 * Body chunk size (bytes) (default 1024)
+
+## Run the server
+
+To compile and run the server, use the following command
+
+```
+gcc main.c -o main.out -lpthread
+
+./main.out
+```
