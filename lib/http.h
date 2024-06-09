@@ -8,7 +8,7 @@
 #include <stdlib.h>
 
 char *default_index = "/index.html";
-char *web_dir = "./web";
+char *web_dir = "./static";
 
 int LOGGING = 0;
 int BODY_CHUNK_THRESHOLD = 1024;
